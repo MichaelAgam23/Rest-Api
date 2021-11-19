@@ -1,161 +1,54 @@
-# **Node JS Rest-API**
+<h1 align="center">Hi! 👋 I'm Agam</h1>
 
-<img src="https://telegra.ph/file/526bd8b6aead54ffabf3a.jpg" width="500">
+<p align="center">
+  <a href="https://ibb.co/QQX130c"><img src="http://readme-typing-svg.herokuapp.com?color=1C71FA&center=true&vCenter=true&multiline=false&lines=I'Am+Michael+Agam+From+Indonesia.;I'am+Not+Programmer." alt="Michael Agam">
+</p>
 
-Simple Rest-API With Login System, Built using MongoDB, Express.js, and Node.js
+<p align="center">
+  <a href="https://ibb.co/QQX130c"><img src="https://i.ibb.co/tK3WTRh/FB-IMG-1619342660961.jpg" alt="Velgrynd"></a>
+</p>
 
-Full App : https://api.melbot.xyz/
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=MichaelAgam&color=blue&style=flat-square&label=Profile+Views" alt="Profile Views" /> <img src="https://img.shields.io/github/followers/MichaelAgam23?label=Followers" style=" float:left, margin-right:10px" alt="Followers" />
+</p>
 
-Rest-Api : https://melcanz.com/
 
-# Installation
 
-Requirements
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [VS Code](https://code.visualstudio.com/download) or Any Text Editor
 
-## Cloning this repo
-```cmd
-> git clone https://github.com/Xmell91/api-2.git
-> cd nodejs-restapi
-```
-Use `code .` to open file in VS Code
-```cmd
-> code .
-```
+- Hi, I’m Michael Agam
+- I’m Form Indonesia
+- I'm Not Programmer
 
-## Editing the file
-Edit the required value in folder `lib` file `settings.js`.
 
-```js
-module.exports = {
-    port: '5000',
-    limitCount: 0,
-    recaptcha_key_1: '',
-    recaptcha_key_2: '',
-    // ex Mongodb Atlas : mongodb+srv:/xxx
-    dbURI: ''
-};
-```
+# CONTACT
 
-`port`: PORT localhost.
+* [ `Agam `](https://wa.me/6282217590187) 
+* [ `Bot WhatsApp `](https://wa.me/6282192440563) 
 
-`recaptcha_key_1`: reCaptcha Key.
+# DONASI
 
-`recaptcha_key_2`: reCaptcha Key.
+* [ ` Saweria ` ](https://saweria.co/MichaelAgam) 
 
-`dbURI`: Connection String MongoDb. 
+# GROUP WHATSAPP
 
-## How to Get recaptcha_key
+* [ `RPG WHATSAPP BOT ` ](https://chat.whatsapp.com/GjorbJLSWDX3kJPFYS8I75) 
+* [ `WHATSAPP BOT ONLY `](https://chat.whatsapp.com/JzK1WlO0KXA7reyNXhqXJS) 
+* [ `ANIME LOVERS IND `](https://chat.whatsapp.com/C7aeVRZvug6H99sfHxPoFs) 
+* [ `ANIME DESU `](https://chat.whatsapp.com/FhRVp9FkBQsJD1XX6VphZn) 
+* [ ` EXTREAM `](https://chat.whatsapp.com/EyOOD9X6mInFKHlUUUwFd7) 
+* [ ` CATZY TEAM ` ](https://chat.whatsapp.com/JQ17aqI3rXq2LVPiLvAJm1) 
 
-Contact Me ([WhatsApp](https://api.whatsapp.com/send/?phone=6287755080455&text&app_absent=0)) How to get Recaptcha Key
 
-## How to Get Mongodb URI
-1. Sign In [Mongodb](https://www.mongodb.com/)
-2. Create a Database.
-<img src="https://i.postimg.cc/R0D16X3C/1.png" width="300">
+# SOSMED
 
-3. Create Free Cluster.
-4. Choose Cloud Provider & Region, Create Cluster.
-5. Select `Connect`.
-6. Add a Connection IP Address.
-<img src="https://i.postimg.cc/gk1H2MZY/5-1.png" width="500">
+* [ `YOUTUBE `](https://www.youtube.com/channel/UCw78OZWMeMYjMdOP1oYv6XA) 
+* [ `INSTAGRAM `](https://instagram.com/lordagam23_) 
 
-7. Create a Database User
-<img src="https://i.postimg.cc/T1zCLGPc/5-2.png" width="500">
 
-8. Connect Your Application
-9. Change `<password>` with Your Password Database User `step 7`
-<img src="https://i.postimg.cc/6pW4wgW2/db.png" width="500">
-10. Copy and Paste in `settings.js`
 
-Contact Me ([WhatsApp](https://api.whatsapp.com/send/?phone=6287755080455&text&app_absent=0)) if You Have Problem with mongodb
 
-## Installing the dependencies
-```cmd
-> npm install
-```
+# GITHUB
 
-## Running App
-```cmd
-> npm start
-```
-
-Then Browse http://localhost:5000 . You will see the Homepage.
-
-<img src="https://i.postimg.cc/d1J2tZLF/landingpage.png" width="500">
-
-# Features
-
-|     API              |  EndPoint       |  Query           |
-| :--------------:     | :------------:  | :------------:   |
-| Youtube MP3          |  /ytmp3?url=    |  url & apikey    |
-| Youtube MP4          |  /ytmp4?url=    |  url & apikey    |
-| Youtube Play         |  /ytplay?query= |  query & apikey  |
-| Random Quotes        |  /quotes        |  apikey          |
-| Random Fakta         |  /fakta         |  apikey          |
-| Random Kata Bijak    |  /bijak         |  apikey          |
-| Random Kata Motivasi |  /motivasi      |  apikey          |
-| Random Ptl           |  /ptl           |  apikey          |
-| Cak Lontong          |  /caklontong    |  apikey          |
-
-If you want to unlock Premium Feature, please contact me ([WhatsApp](https://api.whatsapp.com/send/?phone=6287755080455&text&app_absent=0))
-
-|     Premium               |  Availability  |
-| :--------------:          | :------------: |
-| Premium User              |   ✔️           |
-| Expired Premium User      |   ✔️           |
-| Added Premium Apikey      |   ✔️           |
-| Delete Premium Apikey     |   ✔️           |
-| Limit Apikey              |   ✔️           |
-| Custom Limit Apikey       |   ✔️           |
-| Custom Apikey             |   ✔️           |
-| Reset Manual All Limit    |   ✔️           |
-| Reset One Limit Apikey    |   ✔️           |
-| Photooxy                  |   ✔️           |
-| Request (Total, Today)    |   ✔️           |
-| Visitor, Total User       |   ✔️           |
-| Pricing Section           |   ✔️           |
-
-# Deploy Heroku
-
-Go to [Heroku](https://heroku.com) and Login
-
-Create New App ( App Name For Example : abcd-api)
-
-<img src="https://i.postimg.cc/Z5T8Btw2/newapp.png" width="300">
-
-Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-
-Open `CMD` and Login Heroku
-
-```cmd
-> heroku login
-```
-
-Initialize a git repository in a new or existing directory
-
-```cmd
-> cd nodejs-restapi
-> git init
-```
-
-Remote Your App, Use `heroku git:remote -a app-name`
-
-```cmd
-> heroku git:remote -a abcd-api
-```
-
-Commit your code to the repository and deploy it to Heroku using Git.
-
-```cmd
-> git add .
-> git commit -am "make it better"
-> git push heroku master
-```
-
-Log Success
-
-<img src="https://i.postimg.cc/j5bzy0NP/deploy.png" width="300">
-
+* [ ` Michael Agam ` ](https://github.com/MichaelAgam23) 
+* [ ` KAMIKAZE ` ](https://github.com/KamiKaze2325) 
+* [ ` MELCANZ ` ](https://github.com/Xmell91)
